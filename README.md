@@ -31,7 +31,9 @@ payload = {
             }
 ```   
         
+# Features
 
+The program provides detailed logs of each API request. It also provides the total number of submissions posted as well as any failures. Validation is also included to validate the Excel columns for required fields.
 
 # Requirements
 
@@ -41,9 +43,9 @@ payload = {
 # Dependencies
     pandas, requests, loguuru
 
-#References
+# References
 
 https://canvas.instructure.com/doc/api/
 
-#Usage
+# Usage
  python auto-grader-cse1325
