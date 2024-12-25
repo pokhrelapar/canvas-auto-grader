@@ -1,3 +1,4 @@
+Licensed under GNU General Public License v3.0
 
 # Introduction
 This is a Python program created to automatically post grades and submission comments from an csv file to Canvas.
