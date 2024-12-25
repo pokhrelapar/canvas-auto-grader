@@ -2,7 +2,7 @@
 # Introduction
 This is a Python program created to automatically post grades and submission comments from an csv file to Canvas.
 
-This program was created to streamline grades entries and comments for 150+ students. It was tedious and a time consuming to copy/paste grades and comments individually from an Excel sheet to Canvas. It utlizies the officiall Canvas API to post student's grades and  comments as well as file attachments (if provided).
+This program was created to streamline grades entries and comments for 150+ students for OOP class (Fall 2024). It utlizies the officiall Canvas API to post student's grades and  comments as well as file attachments (if provided).
 
 # API Endpoints
 
