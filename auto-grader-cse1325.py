@@ -145,9 +145,15 @@ def postGradesAndSubmissionComments():
             userId = row["user_id"]  # Canvas Id
             finalGrade = row["Grades"]  # Grade [points, letter grade,excused]
             commentText = row.get("Comments","")  # Comments
+            postFlag = row.get("post") # post flag 
             
             if pd.isna(commentText):  # Ensure NaN values are converted to an empty string
                 commentText = ""
+                
+            if postFlag.upper() != "Y":
+                logger.info(f"Skipping {student}: {userId} as post flag is 'N'.")
+                continue  # Skip posting grades for this student
+
             
             filePath = row.get("file_path", None)  # Get the file path from the 'path' column
 
