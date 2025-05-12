@@ -11,9 +11,9 @@ CSV_FILE = "Grades.csv"  # File with the Canvas User IDs, Grades, and Comments
 
 REQUIRED_COLUMNS = {"user_id", "Grades", "Comments"}
 
-COURSE_ID = 197600  # CSE 1325
-ASSIGNMENT_ID = 1746394  # Update for each P01, P02, and so on
-ASSIGNMENT_NAME = 'P11'
+COURSE_ID = 1234  # add your couse ID
+ASSIGNMENT_ID = 5678  # update for each assignments
+ASSIGNMENT_NAME = 'P11' #optional
 
 # Retrieve the access token from the environment variable
 ACCESS_TOKEN = os.getenv("CANVAS_AUTH_TOKEN")
